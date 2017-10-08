@@ -3,10 +3,8 @@
 % LaTeX Template
 % Version 1.0 (3/8/13)
 %
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original Author: Vel (vel@latextemplates.com)
+% This template was based on Nicolas Diaz
+% (nsdiaz@uc.cl and Vel (vel@latextemplates.com)
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -20,44 +18,47 @@
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage{graphicx} % Required for including pictures
 \usepackage{wrapfig} % Allows in-line images
-\usepackage{mathpazo} % Use the Palatino font
+%\usepackage{mathpazo} % Use the Palatino font
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \linespread{1} % Change line spacing here, Palatino benefits from a slight increase by default
 \usepackage[round]{natbib}
 \usepackage{hyperref}
 \makeatletter
-\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
 
-\begin % center align
+\renewcommand{\maketitle} {% Customize the title - do not edit title and author name here, see the TITLE block below
+
+\begin{center} % Right align
 {\LARGE\@title} % Increase the font size of the title
+
 \vspace{10pt} % Some vertical space between the title and author name
 
 {\large\@author} % Author name
 \\\@date % Date
 
 \vspace{10pt} % Some vertical space between the author block and abstract
-\end{flushright}
+\end{center}
 }
-
 %----------------------------------------------------------------------------------------
 %	TITLE
 %----------------------------------------------------------------------------------------
 
-\author{\textsc{Valentina Messeri} % Author
-\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
-\includegraphics[width=\linewidth]{MOOCs.png}
-\caption{Problema de Investigación}
-\label{fig:MOOCs.jpg}
-\end{figure}
-\\{\textit{Universitat Oberta de Catalunya}}} % Institution
-\title{\textbf{Enganchar al aprendizaje masivo y escalable}\\ % Title
-} % Subtitle
-\date{April, 26, 2017} % Date
+\title{\textbf{Universitat Oberta de Catalunya }\\ % Title
+\vspace{10pt}
+{Cooperación masiva y escalable}}% Subtitle
 
-%----------------------------------------------------------------------------------------
+\author{\textsc{Valentina Messeri} % Author
+\\{\textit{tutor}}} %tutor
+
+\date{} % Date
 
 \begin{document}
+\textit{}
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{IMG/logoUOC.png}
+%\caption{}
+%\label{fig:fig.png}
+\end{figure}
 
 \maketitle % Print the title section
 
@@ -68,7 +69,7 @@
 %\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
 
 \begin{abstract}
-La participación masiva en curso de tipo MOOCs es una realidad educativa que representa una grande posibilidad para la construcción de un tipo de formación modular y flexible que permita la consolidación de un modelo de conocimiento socializado, común y compartido. \\Como consecuencia el papel de las instituciones educativas debe ser lo de explorar los distintos aspectos de este fenómeno y descubrir los \textit{mecanismos} subyacentes a esta práctica de educación en-linea. En este estudio nos proponemos, colocando el punto de partida del lado de los estudiantes, identificar estos \textit{mecanismos} con el objetivo de fortalecer y aprovechar al máximo el rol que el mismo estudiante tiene. De este modo ampliar y consolidar la portada de la modalidad formativa propia de los MOOCs a partir de un lenguaje de instrucciones estrictamente ligado a todo tipos de actividades sociales en-linea, lenguaje que por naturaleza pertenece a los seres humanos del siglo XXI.\\  
+
 \end{abstract}
 
 \vspace{20pt} % Some vertical space between the abstract and first section
@@ -92,26 +93,11 @@ La participación masiva en curso de tipo MOOCs es una realidad educativa que re
 %	ESSAY BODY
 
 \section{Introducción}
-Los MOOCs, cuya popularidad se ha estabilizado en cifras muy altas después del celebrado \textit{hype} del 2012, contribuyen a \textit {extender la palabra} de la educación en línea, de la cual evolución son una expresión y representan una posibilidad de progreso para los proceso de aprendizaje/enseñanza y del conocimiento en general. Se ha llegado a postular que fueran la solución para permitir el acceso global a la educación, abatiendo costes prohibitivos para muchos \citep{meta} y \citep{Nrb17}, si bien hay que considerar factores más complejos de las condiciones económicas y sociales que condicionan el acceso a la educación. Aun así el fenómeno MOOCs nos entrega una oportunidad \textit {masiva} para redefinir el rol global de la educación en la sociedad de la información.
-\\ Nuestro interés, al lado de la exploración de propuestas pedagógicas dedicadas y plataformas accesibles de entornos de aprendizaje, se dirige a la identificación de mecanismos capaces de realzar el interés en el aprendizaje, aumentar la calidad de la participación y profundizar el nivel de implicación de los estudiante para que desempeñen un papel activos en el proceso de construcción del conocimiento.
-\\Como consecuencias, si consideramos que estos estudiantes representan un número considerable de personas, sus roles activos incrementarán la práctica de generar y compartir conocimiento en nuestra sociedad de la información.\citep{Dow12} y \citep{kop11}
-\\En la revisión de la literatura alrededor de este tópico y en la pesquisa de todos elementos aptos para la exploración de esta temática, debido al  abundante material surgidos en los pocos años desde que esta práctica irrumpió en el mundo de la educación, hemos privilegiado todos aquellos trabajos producidos a partir del 2014, plus, donde fuera posible, las  metaanálisis del. Paralelamente se filtraron todos tipos de documentos producidos en formato de artículos y conferencias, debido a que la publicación de volúmenes en papel requiere tiempos más largos. \\Observamos que la rapidez del proceso evolutivo de los MOOCs es emblemático de la sociedad actual y representa la ocasión de (per)seguir, con  velocidad, accesibilidad e intensidad, un recorrido de aprendizaje y enseñanza novedoso, especializado y socializado.
 
 \vspace{10pt}
 
-\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
-\includegraphics[width=\linewidth]{MOOCs.png}
-\caption{Problema de Investigación}
-\label{fig:MOOCs.jpg}
-\end{figure}
 
 \section{Preguntas de investigación}
-
-El propósito de esta investigación es proveer un contemporáneo y innovador estudio alrededor de la experiencia y la participación del estudiante en cursos MOOCs. Ahora bien, después de haber considerado todas las premisas y dejando al lado aspectos como lo de la tasa de abandono o las taxonomías xMOOCs y cMOOCs \citep{alt15}, hemos intentado focalizarnos en dos principales direcciones: 1) observar las características peculiares que han permitido a este tipo de cursos de ser tan populares 2) recurrir entre ellos los aspectos sociales y las ventajas de esta práctica de educación en-linea.\citep{jcAF17}.
-\\ Postulamos un punto de vista de los estudiantes\citep{GuardiaOrtiz2013} para poder adecuadamente investigar cuales herramientas y tecnologías son mejor recibida por ellos a la hora de construir y desarrollar sus propios roles como sujeto activos en la sociedad de la información. En esta dirección asumimos que la mayoría de los estudiantes de MOOCs están movidos para conseguir mejoramiento  personal.\citep{Nrb17}
-\\Las actividades de nuestra investigación recaen en diferentes categorías, por lo tanto, después haber considerar características intrínsecas y motivaciones de los participantes concordamos en la necesidad de establecer un lenguaje apropiado, como apunta \citep{cae16} \textit{"Learning is mediated by languae of instruction and social engagement"}, lenguaje adecuado a los medios de comunicación y socialización propios de la sociedad de la Información. Codigos....
-\\ Dentro de su análisis nuestra propuesta incluye  establecer en que medida  elementos y recursos educacionales abiertos son necesarios para conseguir la completa efectividad de una solida estructura tecnopedagógica y de diseño instruccional compuesta de \textit{ladrillos modulares de conocimiento.}\citep{Dow05}.
-\\ En este sentido, el ejemplo de los MOOCs podría ser la estrategia ganadora a seguir para realzar los estándares generales de la educación superior y a partir de sus éxito seguir investigando alrededor de cuales son las estrategias a seguir  para mejorar los  elementos formativo y educativos de los MOOCs, con el fin que estos devengan un recurso de instrucción superior de calidad.\cite{GuardiaOrtiz2013}
 
 %\section*{}
 
@@ -121,65 +107,37 @@ El propósito de esta investigación es proveer un contemporáneo y innovador es
 
 \subsection{Generales}
 
-\item Maximizar las funciones educativas del Internet como recurso formativo de la sociedad de la información centrada en \textit {"...las personas, integradora y orientada al desarrollo..."}(Declaración de Principios) \footnote{\url{http://www.itu.int/net/wsis/docs/geneva/official/dop.html}}
-
-\item Potenciar la eficacia de cursos de tipo MOOCs en el ámbito de la educación superior universitaria y laboral para que puedan desempeñar el papel social de difundir la educación a nivel global.
-
-\subsection{Específicos}
-\item Ampliar las posibilidades formativas de los MOOCs identificando motivaciones a raíz de las cuales cifras considerables de personas se inscriben, frecuentan y finalizan o abandonan este tipo de cursos; analizar los perfiles de los participantes y cruzar rasgos socio-demográficos con experiencia previa y expectativas como elementos sobre los cuales reflexionar en la óptica de extender ulteriormente la zona de captación.
-
-\item Investigar acerca de trabajos multidisciplinarios entre varias instituciones finalizados a valorizar el concepto de la educación abierta y a concretar productos innovadores para la socialización del conocimiento a partir de las plataformas MOOCs y OER libres y con peculiaridades que se completan en un discurso tecnopedagógico actualizado a las exigencias contemporáneas.
+\item 
+\item
+\item
 
 
 \section{Metodología}
-El planteamiento a la base de la presente investigación es identificar las posibilidades de optimización de una practicas educativa en linea consolidada y actual (los MOOCs) a partir de los recursos tecnológicos que la califican y de su dimensión social. Se trata de un tipo de estudio en el cual las informaciones a recolectar necesitan por un lado una muestra de una discreta amplitud y por el otro la posibilidad de obtener explicaciones mas profundizada respecto a los asuntos tratados.
-\\Por lo tanto y a raíz de estas consideraciones nos abocamos por el empleo de una método mixto justificado por la razón que instrumentos utilizados con método cualitativo no serian adecuado a la hora de analizar una muestra muy grande así como un método de tipo cuantitativo seria insuficiente a la hora de recolectar informaciones detalladas para la apropiada explicación de los resultado adquiridos\citep{Cpc11}.
-\\Consideramos la diferenciación de metodologías como presupuesto indispensable, dada la naturaleza del objeto de nuetro estudio: la evolución de una practica educativa en un contexto social. Como señala \citep{CaberoAlmenara2016} respecto a la metodología \textit{...lo que es verdaderamente necesario es que la aplicación de la misma en una investigación esté bien justificada y aplicada.}
+
 \vspace{10pt}
 
- \begin{figure}[ht]\centering
-\includegraphics[width=\linewidth]{Fig2.png}
-\caption{Diseño Secuencial Explanatorio}
-\label{fig:fig.png}
-\end{figure}
+
 \section{Método Operativo}
-
-Nuestra preocupación principal la hora de hacer el diseño de la investigación era la exigencia de tener los instrumentos necesarios para poder abarcar todos ámbitos del problema, en relación a eso la elección se centro en un método mixto que nos facilitara esta tarea.
-\\La propuesta de Creswell, Plano-Clarck, Gatman y Hanson (2003) de \textbf{Diseño Explicativo Secuencial} \ref{fig:fig.png} nos pareció la mas adecuada: al suponer el utilizo de fases secuenciales cuantitativa y cualitativa nos ofrecía una premisas excelente para el labora que programamos.   \citep{Ivankova2006}. 
-\\La finalidad del diseño desarrollado es la de estudiar y describir el problema de la investigación en profundidad; para poder lograr este resultado nos planteamos utilizar un tipo de estudio cuantitativo para medir atributos y propiedades del problemas (fase I) a seguir un estudio cualitativo ( fase II) para profundizar y interpretar los resultados de la fase I. En la fase III, la final, se implementaran los resultado de ambas secuencias. \ref{fig:fig3.jpg}.
-
-\vspace{10pt}
-
-\begin{figure}[ht]\centering
-\includegraphics[width=\linewidth]{fig3.jpg}
-\caption{Análisis Resultados}
-\label{fig:fig3.jpg}
-\end{figure}
 
 \section{Técnicas y Instrumentos}
 
-\item \textbf{Técnicas} Cuantitativa y Cualitativas para satisfacer los requisitos a la base de un tipo de investigación cuya finalidad es identificar datos a elaborar en una óptica de total abertura respecto a los posible resultados; nuestra voluntad no es demostrar hechos os sino descubrir elementos.  
+\item 
 
-\item \textbf{Instrumentos} que hemos escogido son, respecto a la fase cuantitativa: el Cuestionario; respecto a la fase cualitativa: la Entrevista Semi-Estructurada y la Observación no-participante.
+\item 
 
-\subsection{Fase I: Cuestionario}
-El primer paso fue proyectar el desarrollo de un cuestionario online que entendemos utilizar para recolectar datos acerca de tendencias y perspectivas individuales desde comunidades de estudiantes MOOCs para ser analizadas con un tipo metodología cuantitativa. 
+\subsection
 
-\subsection{Fase II: Entrevista semi-estructurada y Observación no-participante}
-A partir de la muestra utilizada durante la fase inicial cuantitativa seleccionaremos unos informantes a los cuales se subministrara una entrevista semi-estructurada impartida en linea, con modalidad síncrona y asíncrona.
-\\Nos percatamos, en la fase preparatoria de los instrumentos, de la necesidad de observar el comportamientos de unos sujetos en su ambiente natural, por lo tanto procedemos a proyectar una observación no-participante relativa al grupo de estudio de un MOOC en el entorno virtual de una red social.
-\\No se excluyen el empleo de otros instrumentos, en el caso que algunos de los resultados emergidos lo requieran. 
+\subsection
 
-\subsection {Fase III Implementación}  Los datos recolectados durante las primeras fases se elaboraran conjuntamente  manteniendo un constante  el flujo entre ellos con el propósito de mantener abierta cualquier interpretación.
-
+\subsection 
 
 \section{Resultados Esperados}
 
-\item La posibilidad de los MOOCs reside en el carácter de socializabilidad que conllevan y en la posibilidad de emplear las redes sociales para un uso constructivo que pensamos sea imprescindible en la sociedad actual. Las tecnologías sociales y los recursos compartidos generan procesos formativo y ético con la condición que esas sean utilizadas de la forma correcta neutralizando aquellos mecanismos que caracterizan de forma no positiva estas redes de comunicación y conocimiento.
+\item 
 
-\item A partir del estudio explicativo acerca de un producto que ha demostrado funcionar, nuestra intención es identificar las fortalezas de esta practica educativa, para optimizarlas; a la vez que las debilidades para intentar disminuirlas; con la finalidad que este producto pueda utilizarse con la mas versatilidad posible. 
+\item 
 
-\item Los MOOCs son una posibilidad para la educación del siglo XXI, y creemos posible definir un modelo flexible y utilizable en todo tipo de actividad educativa y en cualquier forma de educación. 
+\item 
 
 
 \end{description}
